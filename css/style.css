@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+[aria-hidden="true"] {
+  display: none;
+}
+
+[aria-hidden="false"] {
+  display: block;
+}
+
+.tab_area {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.tab_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -20px;
+}
+
+.tab_btn {
+  padding: 0 20px;
+}
+
+.tab_btn button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #ddd;
+  padding: 16px 32px;
+}
+
+.tab_btn button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.contents_list {
+  margin-top: 16px;
+}
+
+.tab2_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -20px;
+}
+
+.tab2 {
+  padding: 0 20px;
+}
+
+.tab2 button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: pink;
+  padding: 16px 32px;
+}
+
+.tab2 button:hover {
+  background-color: yellow;
+}
+
+.contents_list {
+  margin-top: 16px;
+}
